@@ -1,5 +1,5 @@
 def read_data():
-    with open('./input', 'r') as f:
+    with open('./input.txt', 'r') as f:
         input = f.read().splitlines()
         input = [int(i) for i in input]
     return input
